@@ -1,5 +1,5 @@
 package FactoryMethod.mypackage;
 
-public class SHAPE {
-    
+public interface SHAPE {
+    void draw();
 }

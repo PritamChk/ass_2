@@ -1,5 +1,12 @@
 package FactoryMethod.mypackage;
 
-public class Circle {
+import FactoryMethod.mypackage.SHAPE;
+
+public class Circle implements SHAPE {
     
+    @Override
+    public void draw(){
+        System.out.println("Ami Circle");
+        return;
+    }
 }
