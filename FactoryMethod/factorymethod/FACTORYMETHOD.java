@@ -14,10 +14,10 @@ class FACTORYMETHOD {
             return null;
         }
         else if (shapetype.equalsIgnoreCase("Circle")){
-            return Circle();
+            return new Circle();
         }
         else if (shapetype.equalsIgnoreCase("Rectangle")){
-            return Rectangle();
+            return new Rectangle();
         }
         return null;
     } 
