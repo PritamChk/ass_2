@@ -1,7 +1,5 @@
 package FactoryMethod.mypackage;
 
-import FactoryMethod.mypackage.SHAPE;
-
 public class Rectangle implements SHAPE {
     
     @Override
