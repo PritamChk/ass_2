@@ -1,4 +1,5 @@
-import Vehicle.mypackage.*;
+package VehicleTest;
+import VehicleTest.mypackage.*;
 
 public class VehicleTest {
     

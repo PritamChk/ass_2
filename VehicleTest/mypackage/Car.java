@@ -1,4 +1,4 @@
-package Vehicle.mypackage;
+package VehicleTest.mypackage;
 
 public class Car extends Vehicle{
     private int no_of_passenger_;

@@ -1,4 +1,4 @@
-package Vehicle.mypackage;
+package VehicleTest.mypackage;
 
 public class Truck extends Vehicle{
     private int load_limit_;

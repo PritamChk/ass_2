@@ -1,4 +1,4 @@
-package Vehicle.mypackage;
+package VehicleTest.mypackage;
 
 public abstract class Vehicle {
     private int speed_;
