@@ -7,7 +7,9 @@ import java.util.Scanner;
 import mypackage.Circle;
 import mypackage.Rectangle;
 
-class FACTORYMETHOD {
+//comment
+
+public class FACTORYMETHOD {
     
     public static SHAPE getShape(String shapetype){
         if (shapetype == null){
