@@ -1,11 +1,11 @@
-package FactoryMethod.factorymethod;
+package factorymethod;
 
-import FactoryMethod.mypackage.SHAPE;
+import mypackage.SHAPE;
 
 import java.util.Scanner;
 
-import FactoryMethod.mypackage.Circle;
-import FactoryMethod.mypackage.Rectangle;
+import mypackage.Circle;
+import mypackage.Rectangle;
 
 class FACTORYMETHOD {
     

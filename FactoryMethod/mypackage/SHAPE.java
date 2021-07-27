@@ -1,4 +1,4 @@
-package FactoryMethod.mypackage;
+package mypackage;
 
 public interface SHAPE {
     void draw();

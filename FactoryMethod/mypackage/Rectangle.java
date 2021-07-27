@@ -1,4 +1,4 @@
-package FactoryMethod.mypackage;
+package mypackage;
 
 public class Rectangle implements SHAPE {
     
