@@ -11,6 +11,7 @@ public class College {
 
     public College(){}
 
+    // public College(String col_id, String col_name, Student s){
     public College(String col_id, String col_name){
         col_id_ = col_id;
         col_name_ = col_name; 
@@ -37,7 +38,7 @@ public class College {
         }
     }
 
-    public void admitStudent(Student s){
+    protected static void admitStudent_(Student s){
         students_.add(s);
         System.out.println("Student is admitted");
     }

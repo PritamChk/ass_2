@@ -5,15 +5,10 @@ import CollegeStudent.student.Student;
 
 public class CollegeStudent {
     public static void main(String[] args) {
-        College c1 = new College("130","TMSL");
-        Student Rivu = new Student(c1,"Rivu",10,"MCA","26/10/2020",100);
-        Student Rimi = new Student(c1,"Rimi",1,"MCA","26/10/2020",200);
+        College TMSL =new Student("130","Tchno","Rivu",32,"MCA", "01/08/2020",99);
+        College TMSL =new Student("130","Tchno","Rimi",16,"MCA", "01/08/2020",100);
+        College TMSL =new Student("130","Tchno","Pritam",30,"MCA", "01/08/2020",97);
         
-        System.out.println(Rivu);
-        System.out.println(Rimi);
-        
-        System.out.println("No of Students in TMSL : "+c1.getNumberOfStudents());
-
-        c1.getStudentDetails();
+        College Xaviers = new Student("141","Xavier's","Sohham",41,"CS","04/07/2017",1700);
     }
 }

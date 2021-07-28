@@ -11,14 +11,22 @@ public class Student extends College{
 
     public Student(){}
 
-    public Student(College C ,String name,int roll, String stream, String admission, int marks){
-        super(C.getCol_id(),C.getCol_name());
+    public Student(String cid, String cname ,String name,int roll, String stream, String admission, int marks){
+        // Constructor
+        //@param : cid -> College ID
+        //@param : cname -> College Name
+        //@param : name -> Student Name
+        //@param : roll -> Student Name
+        //@param : stream -> Stream Taken by the student
+        //@param : admission -> Student's Admission Date in DD/MM/YYYY format
+        //@param : marks -> Total Marks obtained till now
+        super(cid,cname);
         roll_ = roll;
         name_ = name;
         stream_ = stream;
         admission_year_ = admission;
         marks_ = marks;
-        admitStudent(this);
+        admitStudent_(this);
     }
 
     @Override
