@@ -1,6 +1,6 @@
+// @author : Pritam Chakraborty
+// @date : 28/07/2021
 package CollegeTest.college;
-
-import CollegeStudent.college.College;
 
 public class Student {
     String sname_ = null;
@@ -21,36 +21,35 @@ public class Student {
         this.stream_ = stream_;
         SCollege = sCollege;
     }
-
-    @Override
-    public String toString() {
-        return "Student [SCollege=" + SCollege + 
-                ", admissionYear_=" + admissionYear_ + 
-                ", marks_=" + marks_ + 
-                ", roll_=" + roll_ + 
-                ", sname_=" + sname_ + 
-                ", stream_=" + stream_ + 
-                "]";
-    }
-
+  
     public String getSname_() {
         return sname_;
     }
-
+    
     public int getRoll_() {
         return roll_;
     }
-
+    
     public int getMarks_() {
         return marks_;
     }
-
+    
     public String getAdmissionYear_() {
         return admissionYear_;
     }
-
+    
     public College getSCollege() {
         return SCollege;
     }
-
+    
+    @Override
+    public String toString() {
+        return "Student [\nSCollege=" + SCollege +  ", \n" +
+                " admissionYear_=" + admissionYear_ +  ", \n" +
+                " marks_=" + marks_ +  ", \n" +
+                " roll_=" + roll_ +  ", \n" +
+                " sname_=" + sname_ +  ", \n" +
+                " stream_=" + stream_ +  ", \n" +
+                "]" + "\n" ;
+    }
 }
